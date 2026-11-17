@@ -1493,58 +1493,29 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 12px rgba(16, 185, 129, 0.28);
 }
 
-/* Executive Footer */
+/* Executive Footer (Ultra-Clean & Compact) */
 footer {
   background: #03050c;
   border-top: 1px solid var(--border-subtle);
-  padding: 3rem 0 1.8rem;
+  padding: 1.25rem 0;
   position: relative;
   z-index: 1;
 }
 
 .footer-content {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1.3rem;
-}
-
-.footer-brand h3 {
-  font-size: 1.35rem;
-  margin-bottom: 0.25rem;
-  letter-spacing: -0.01em;
-}
-
-.footer-brand p {
-  color: var(--text-secondary);
-  font-size: 0.86rem;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.4rem;
-}
-
-.footer-links a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.88rem;
-  transition: color var(--transition-fast);
-}
-
-.footer-links a:hover {
-  color: var(--accent-primary);
 }
 
 .copyright {
   color: var(--text-muted);
   font-size: 0.82rem;
-  border-top: 1px solid var(--border-subtle);
-  width: 100%;
-  padding-top: 1.2rem;
-  margin-top: 0.4rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+  letter-spacing: 0.01em;
 }
 
 /* Toast & Floating Back to Top */
